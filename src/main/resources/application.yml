@@ -20,4 +20,9 @@ spring:
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
-    bootstrap-servers: 35.239.239.224:9092
+    bootstrap-servers: 18.220.74.171:9093
+    admin:
+      auto-create: true
+
+server:
+  port: 8083
